@@ -20,6 +20,10 @@ The Elo rating system is a method for calculating the relative skill levels of p
 A modified version of Elo came with Glicko which later got further modified to Glicko2. (You can find the links to implementation below.)
 Glicko2 starts with a median score of usually 1500 and ranks or plays games amongst other object/entity based on said denominators or criteria till the score settles down on each criteria. Each combination is also a different match between entity-object and entity-entity or object-object or object-entity. Of course as you can guess, the order/direction matters to an extent. (Not in all cases).
 
+#### A few case studies:
+- [Improve tennis rating system based on Glicko-2 system.](https://medium.com/@taiga_tachibana/improve-tennis-rating-system-based-on-glicko-2-system-d481e83a1ecb)
+
+
 Our goal here is get to a modified state of glicko2 to bring up our own ranking algorithm to satisfy all said cases with minimum intervention. We'll go through all pros and cons of glicko2 algortihm and other ranking algorthims and come up a best feasible way, optimised to performance and speed of ranking.
 
 
