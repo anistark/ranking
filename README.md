@@ -17,7 +17,7 @@ But this logic fails on a larger scale. So, we need a better way to do it.
 Introducing Elo rating system.
 The Elo rating system is a method for calculating the relative skill levels of players in zero-sum games such as chess. You can use a wide variety of criteria as denominator to classify or rank each object in a certain way. The relative scoring is the best way to ensure the scores of each participant will be help on for the longest part of time.
 
-A modified version of Elo came with Glicko which later got further modified to Glicko2. (You can find the links to implementation below.)
+A modified version of Elo came with [Glicko](http://glicko.net/ratings/glicko.pdf) which later got further modified to [Glicko2](http://glicko.net/ratings/glicko2desc.pdf). (You can find the links to implementation below.)
 Glicko2 starts with a median score of usually 1500 and ranks or plays games amongst other object/entity based on said denominators or criteria till the score settles down on each criteria. Each combination is also a different match between entity-object and entity-entity or object-object or object-entity. Of course as you can guess, the order/direction matters to an extent. (Not in all cases).
 
 #### A few case studies:
