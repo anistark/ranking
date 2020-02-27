@@ -7,6 +7,8 @@ Glicko rating mainly has the following features.
 
 Glicko2 improves on the Glicko by incorporating the rating volatility "σ" factor.
 
+![Glicko2 Formulae](https://wikimedia.org/api/rest_v1/media/math/render/svg/e1f321e4e57c2c561adc6e0792ef63c6c712245c)
+
 [wiki](https://en.wikipedia.org/wiki/Glicko_rating_system) | [paper](http://www.glicko.net/glicko/glicko2.pdf)
 
 - [python](https://github.com/sublee/glicko2/blob/master/glicko2.py)
