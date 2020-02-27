@@ -29,5 +29,6 @@ Our goal here is get to a modified state of glicko2 to bring up our own ranking 
 
 ### Various rating algorithms
 
+- [Chess Rating Systems](https://en.wikipedia.org/wiki/Chess_rating_system)
 - [Elo](https://github.com/anistark/ranking/blob/master/algorithms/elo.md)
 - [Glicko / Glicko-2](https://github.com/anistark/scoring/blob/master/algorithms/glicko2.md)
