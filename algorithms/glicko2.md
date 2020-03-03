@@ -11,6 +11,10 @@ Glicko2 improves on the Glicko by incorporating the rating volatility "σ" facto
 
 [wiki](https://en.wikipedia.org/wiki/Glicko_rating_system) | [paper](http://www.glicko.net/glicko/glicko2.pdf)
 
+Glicko2 is amazing while rating chess players and games. Every player can be now ranked with every game.
+One of my favorite apps lichess does this.
+
+
 - [python](https://github.com/sublee/glicko2/blob/master/glicko2.py)
 - [nodejs](https://www.npmjs.com/package/glicko2)
 - [R](https://github.com/Schw4rz/glicko2)
